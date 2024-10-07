@@ -1,0 +1,82 @@
+/* General body styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+}
+
+/* Navigation Menu */
+nav ul.menu {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    color: rgb(101, 215, 219);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul.menu li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Me Section */
+#about-me h1 {
+    color: #333;
+}
+
+/* Hobbies Section */
+.hobbies-list {
+    list-style-type: none;
+}
+
+.hobbies-list li {
+    margin-bottom: 20px;
+}
+
+.hobbies-list li img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
